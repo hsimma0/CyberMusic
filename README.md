@@ -1,5 +1,5 @@
 ## CYBERMUSIC
-#### This is an open space for all artist to promote and sell their NFT collections worldwide.
+#### This is CyberMusic, it's an application that creates a space for music enthusiast to express their passion for it. Here you can share your favorite music, albums and songs, alongside recommending new artist to others via posting about them on our app. To get the full experience create a profile and keep tabs of your journey.
 
 ### SCREENSHOT(S)
 ![Login](https://imgur.com/jn6BQ90)
