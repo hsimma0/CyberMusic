@@ -1,0 +1,19 @@
+
+{% extends 'base.html' %} {% block content %}
+
+<h1>Music Details</h1>
+
+<div class="card">
+  <div class="card-content">
+    <span class="card-title">{{ music.name }}</span>
+    <img src='{{music.picture}}'/>
+    <p>Description: {{ music.description }}</p>
+    <a href='{{music.youtube}}'>Click</a>
+    <div class="card-action">
+      <a href="{% url 'music_update' music.id %}">Edit</a>
+      <a href="{% url 'music_delete' music.id %}">Delete</a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
