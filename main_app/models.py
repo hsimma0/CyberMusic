@@ -6,7 +6,7 @@ from django.urls import reverse
 #USER IMPORT
 from django.contrib.auth.models import User
 
-# Add the Cat class & list and view function below the imports
+# Add the MUSIC class & list and view function below the imports
 class Music(models.Model):
   name = models.CharField(max_length=100)
   picture = models.CharField(max_length=100)

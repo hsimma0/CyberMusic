@@ -1,8 +1,11 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+@import url('//fonts.cdnfonts.com/css/manaspace');
+
+body{
+  font-family: 'Manaspace', sans-serif;   
+  /* background-image: url(https://media.giphy.com/media/ymGlVg5MalvuuNoZsG/giphy.gif);                                         */
+  background-repeat:no-repeat;
+  background-size: cover;
+}
   
   main {
     flex: 1 0 auto;
@@ -13,3 +16,102 @@ body {
     text-align: right;
   }
   
+  nav {
+    background-color: rgb(13, 115, 45) ;
+  }
+
+  .page-footer {
+    background-color:transparent;
+   
+  }
+
+.card{
+  color: azure;
+  background-image: url(https://media.giphy.com/media/vMSXa7KFGx49aeeXhe/giphy.gif);
+text-align: center;
+}
+
+label {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color:cornflowerblue ;
+}
+
+input[type=text]:not(.browser-default) {
+  background-color: white;
+    border: solid black;
+    border-bottom: 1px solid #9e9e9e;
+    border-radius: 0;
+    outline:auto;
+    height: 2rem;
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+
+textarea {
+  width: 100%;
+  height: 2rem;
+  background-color:white;
+  border: solid black;
+}
+
+.btn{
+  text-decoration: none;
+  color: #fff;
+  background-color: white;
+  display:inline;
+
+}
+
+label{
+  font-size: larger;
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+  background-color: transparent;
+  display: inline;
+}
+
+h1{
+  text-align: center;
+}
+
+.card .card-content p {
+  text-align: center;
+}
+
+
+p{
+  color: #fff;
+  text-align: center;
+}
+
+h1{
+  color: purple;
+  text-align: center;
+}
+nav .brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size:3rem;
+  text-align: right;
+  padding: 0;
+}
+
+ul:not(.browser-default)>li {
+  list-style-type: none;
+  color: #fff;
+}
+
+.card .card-title {
+  font-size: 24px;
+  font-weight: 300;
+  color:white;
+}

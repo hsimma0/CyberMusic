@@ -8,11 +8,13 @@
     <span class="card-title">{{ music.name }}</span>
     <img src='{{music.picture}}'/>
     <p>Description: {{ music.description }}</p>
-    <a href='{{music.youtube}}'>Click</a>
+    <a href='{{music.youtube}}'>Youtube</a>
     <div class="card-action">
       <a href="{% url 'music_update' music.id %}">Edit</a>
       <a href="{% url 'music_delete' music.id %}">Delete</a>
     </div>
+
+    <button><a href="/music">Go Back</a></button>
   </div>
 </div>
 

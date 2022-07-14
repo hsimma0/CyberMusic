@@ -46,7 +46,7 @@ class MusicCreate(LoginRequiredMixin, CreateView):
 
 class MusicUpdate(UpdateView):
   model = Music
-  # Let's disallow the renaming of a cat by excluding the name field!
+
   fields = ['name', 'description', 'youtube', 'picture']
 
 class MusicDelete(DeleteView):
